@@ -2631,7 +2631,7 @@ class User extends CommonDBTM {
                               $show=$show.$data["other"];
                           }
                           $show=$show."</td>";
-
+                    $cpu = Dropdown::getDropdownName("glpi_plugin_genericobject_videocardmodels",$data["plugin_genericobject_videocardmodels_id"]);
                   echo $show;
                  echo "<td class='center'>".Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardtypes",
                           $data["plugin_genericobject_motherboardtypes_id"]).
@@ -2691,7 +2691,7 @@ MEM:
 HDD:
 OS:
 INVENT;
-var_dump($data);
+var_dump($cpu);
 
        QRcode::svg($invent_text);
 
