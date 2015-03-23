@@ -2561,7 +2561,9 @@ class User extends CommonDBTM {
       }
 
       echo "<div class='spaced'>";
-       QRcode::png("PHP QR Code : )", "test.png", "L", 4, 2);
+       $back_color = 0xFFFF00;
+       $fore_color = 0xFF00FF;
+       QRcode::png('some othertext 1234', false, 'h', 20, 1, false, $back_color, $fore_color);
 
        echo "<table class='tab_cadre_fixe'>";
 
