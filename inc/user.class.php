@@ -2714,6 +2714,7 @@ INVENT;
        echo "<pre>";
         var_dump($this);
         echo "</pre>";
+       echo "<h2>".$this->name."</h2>";
        echo "</div>";
 
    //  die;
