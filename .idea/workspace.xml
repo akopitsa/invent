@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bace339c-4de9-40ed-938a-9266f6588497" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/user.class.php" afterPath="$PROJECT_DIR$/inc/user.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/image_qr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="invent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/user.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5538462" vertical-offset="48114" max-vertical-offset="57186">
+            <state vertical-scroll-proportion="-8.689655" vertical-offset="48060" max-vertical-offset="57186">
               <caret line="2724" column="7" selection-start-line="2724" selection-start-column="7" selection-end-line="2724" selection-end-column="7" />
               <folding>
                 <element signature="e#48#1139#0#PHP" expanded="false" />
@@ -67,6 +68,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="image_qr.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front/image_qr.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.020547945" vertical-offset="0" max-vertical-offset="876">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -79,6 +90,7 @@
         <option value="$PROJECT_DIR$/files/_sessions/.gitignore" />
         <option value="$PROJECT_DIR$/files/_cron/.gitignore" />
         <option value="$PROJECT_DIR$/inc/user.class.php" />
+        <option value="$PROJECT_DIR$/front/image_qr.php" />
       </list>
     </option>
   </component>
@@ -286,7 +298,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/user.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5538462" vertical-offset="48114" max-vertical-offset="57186">
+        <state vertical-scroll-proportion="-8.689655" vertical-offset="48060" max-vertical-offset="57186">
           <caret line="2724" column="7" selection-start-line="2724" selection-start-column="7" selection-end-line="2724" selection-end-column="7" />
           <folding>
             <element signature="e#48#1139#0#PHP" expanded="false" />
@@ -319,6 +331,14 @@
             <marker date="1427128113109" expanded="true" signature="104960:105147" placeholder="SELECT * FRO..." />
             <marker date="1427128113109" expanded="true" signature="112449:112554" placeholder="SELECT COUNT..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/image_qr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.020547945" vertical-offset="0" max-vertical-offset="876">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
