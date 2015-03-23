@@ -2720,8 +2720,8 @@ HDD: $hdd
 OS: $os
 INVENT;
 
-
-       QRcode::svg($invent_text);
+       // create with SVG
+       //QRcode::svg($invent_text);
        ?>
        <img src="image_qr.php?inv=<?php echo $invent_text; ?>" />
 <?php
