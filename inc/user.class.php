@@ -2669,6 +2669,7 @@ class User extends CommonDBTM {
                    if(Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']) != '&nbsp;') {
                        $mem .= Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']);
                    }
+                   var_dump(Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']));
                           if ($type_name!="Память")
                           {
                               $show1=$show1.$data["other"];
@@ -2714,7 +2715,7 @@ MEM: $mem
 HDD: $hdd
 OS: $os
 INVENT;
-var_dump(Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']));
+
 
        QRcode::svg($invent_text);
 
