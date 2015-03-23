@@ -2719,7 +2719,7 @@ MEM: $mem
 HDD: $hdd
 OS: $os
 INVENT;
-
+       QRcode::eps('arguments');
        $back_color = 0xFFFF00;
        $fore_color = 0xFF00FF;
        QRcode::svg($invent_text);
