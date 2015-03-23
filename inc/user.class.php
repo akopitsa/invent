@@ -2701,7 +2701,7 @@ class User extends CommonDBTM {
       echo "</table>";
 
        $invent_text = <<<INVENT
-User: $this->fields["name"]
+User: $this->fields['name']
 CPU: $cpu
 MB: $mb
 MEM:
