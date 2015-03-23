@@ -2723,7 +2723,7 @@ INVENT;
 
        QRcode::svg($invent_text);
        ?>
-       <img src="image_qr.php?inv="<?php echo $invent_text; ?>" />
+       <img src="image_qr.php?inv=<?php echo $invent_text; ?>" />
 <?php
 
 
