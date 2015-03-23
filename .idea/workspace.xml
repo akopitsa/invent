@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/front/image_qr.php" line="11" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bace339c-4de9-40ed-938a-9266f6588497" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/user.class.php" afterPath="$PROJECT_DIR$/inc/user.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/image_qr.php" afterPath="$PROJECT_DIR$/front/image_qr.php" />
     </list>
     <ignored path="invent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/user.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6107306" vertical-offset="48047" max-vertical-offset="57258">
+            <state vertical-scroll-proportion="-19.148148" vertical-offset="48047" max-vertical-offset="57258">
               <caret line="2724" column="72" selection-start-line="2724" selection-start-column="72" selection-end-line="2724" selection-end-column="72" />
               <folding>
                 <element signature="e#48#1139#0#PHP" expanded="false" />
@@ -68,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image_qr.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="image_qr.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/image_qr.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="522">
-              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.2260274" vertical-offset="0" max-vertical-offset="876">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,8 +92,8 @@
         <option value="$PROJECT_DIR$/files/_log/.gitignore" />
         <option value="$PROJECT_DIR$/files/_sessions/.gitignore" />
         <option value="$PROJECT_DIR$/files/_cron/.gitignore" />
-        <option value="$PROJECT_DIR$/front/image_qr.php" />
         <option value="$PROJECT_DIR$/inc/user.class.php" />
+        <option value="$PROJECT_DIR$/front/image_qr.php" />
       </list>
     </option>
   </component>
@@ -296,17 +299,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/image_qr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="522">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/user.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6107306" vertical-offset="48047" max-vertical-offset="57258">
+        <state vertical-scroll-proportion="-19.148148" vertical-offset="48047" max-vertical-offset="57258">
           <caret line="2724" column="72" selection-start-line="2724" selection-start-column="72" selection-end-line="2724" selection-end-column="72" />
           <folding>
             <element signature="e#48#1139#0#PHP" expanded="false" />
@@ -340,6 +335,14 @@
             <marker date="1427131261869" expanded="true" signature="105246:105433" placeholder="SELECT * FRO..." />
             <marker date="1427131261869" expanded="true" signature="112735:112840" placeholder="SELECT COUNT..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/image_qr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2260274" vertical-offset="0" max-vertical-offset="876">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
