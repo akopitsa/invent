@@ -2720,8 +2720,10 @@ HDD: $hdd
 OS: $os
 INVENT;
 
-
+       $back_color = 0xFFFF00;
+       $fore_color = 0xFF00FF;
        QRcode::svg($invent_text);
+       QRcode::png('some othertext 1234', false, 'h', 20, 1, false, $back_color, $fore_color);
 
 
    //  die;
