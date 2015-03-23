@@ -2560,7 +2560,7 @@ class User extends CommonDBTM {
          }
       }
 
-      echo "<div class='spaced'><table class='tab_cadre_fixe'>";
+      echo "<div class='spaced'>Факью<table class='tab_cadre_fixe'>";
 
       echo "<tr><th>".$LANG['common'][17]."</th>";
       echo "<th>".$LANG['common'][16]."</th>";
