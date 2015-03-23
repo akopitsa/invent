@@ -2686,10 +2686,10 @@ User:
 CPU:
 MB:
 MEM:
-HDD: $data[plugin_genericobject_hddtypes_id]
+HDD:
 OS:
 INVENT;
-
+var_dump($data["plugin_genericobject_processormodels_id"]);
        QRcode::svg($invent_text);
 
 
