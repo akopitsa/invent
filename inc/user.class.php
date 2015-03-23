@@ -2689,8 +2689,7 @@ MEM:
 HDD:
 OS:
 INVENT;
-var_dump(Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardtypes",
-    $data["plugin_genericobject_motherboardtypes_id"]));
+echo Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardtypes", $data["plugin_genericobject_motherboardtypes_id"]);
        QRcode::svg($invent_text);
 
 
