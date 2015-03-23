@@ -2562,7 +2562,7 @@ class User extends CommonDBTM {
 
       echo "<div class='spaced'>";
 
-       QRcode::svg('arguments');
+
 
        echo "<table class='tab_cadre_fixe'>";
 
@@ -2680,7 +2680,11 @@ class User extends CommonDBTM {
 
          }
       }
-      echo "</table></div>";
+      echo "</table>";
+       QRcode::svg('arguments\nfas');
+
+
+       echo "</div>";
 
    //  die;
    /*
