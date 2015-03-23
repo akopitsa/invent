@@ -2597,6 +2597,7 @@ class User extends CommonDBTM {
             $type_name = $item->getTypeName();
 
             if ($DB->numrows($result) > 0) {
+                $mem = " ";
                while ($data = $DB->fetch_array($result)) {
               //   var_dump($data);
                   $cansee = $item->can($data["id"],"r");
