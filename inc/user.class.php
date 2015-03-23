@@ -2691,7 +2691,7 @@ MEM:
 HDD:
 OS:
 INVENT;
-var_dump($cpu);
+var_dump($show);
 
        QRcode::svg($invent_text);
 
