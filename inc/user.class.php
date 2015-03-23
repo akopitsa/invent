@@ -2689,7 +2689,8 @@ MEM:
 HDD:
 OS:
 INVENT;
-       print_r(Dropdown::getDropdownName("glpi_plugin_genericobject_processormodels",$data["plugin_genericobject_processormodels_id"]));
+
+       var_dump(Dropdown::getDropdownName("glpi_plugin_genericobject_processormodels",$data["plugin_genericobject_processormodels_id"]));
        QRcode::svg($invent_text);
 
 
