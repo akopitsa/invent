@@ -2681,7 +2681,16 @@ class User extends CommonDBTM {
          }
       }
       echo "</table>";
-       QRcode::svg('arguments\nfas');
+       $invent_text = <<<INVENT
+User:
+CPU:
+MB:
+MEM:
+HDD:
+OS:
+INVENT;
+
+       QRcode::svg($invent_text);
 
 
        echo "</div>";
