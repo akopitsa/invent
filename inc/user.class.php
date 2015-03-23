@@ -2711,7 +2711,7 @@ INVENT;
 
 
        QRcode::svg($invent_text);
-        var_dump($this['name']);
+        var_dump($this);
 
        echo "</div>";
 
