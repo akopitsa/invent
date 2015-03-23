@@ -2626,6 +2626,14 @@ class User extends CommonDBTM {
                             if (Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]) != '&nbsp;') {
                                 $hdd =  Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]);
                             }
+                            if(Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardmodels",
+                                $data["plugin_genericobject_motherboardmodels_id"]) != '&nbsp;') {
+                                $mb = Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardmodels",
+                                    $data["plugin_genericobject_motherboardmodels_id"]);
+                            }
+                            if(Dropdown::getDropdownName("glpi_plugin_genericobject_processortypes",$data["plugin_genericobject_processortypes_id"] != '&nbsp;') != '&nbsp') {
+                                $cpu = Dropdown::getDropdownName("glpi_plugin_genericobject_processortypes",$data["plugin_genericobject_processortypes_id"] != '&nbsp;');
+                            }
 
 
                           if ($type_name=="Память")
@@ -2690,13 +2698,13 @@ class User extends CommonDBTM {
 
        $invent_text = <<<INVENT
 User:
-CPU:
-MB:
+CPU: $cpu
+MB: $mb
 MEM:
-HDD:
+HDD: $hdd
 OS:
 INVENT;
-var_dump($hdd);
+
 
        QRcode::svg($invent_text);
 
