@@ -2712,18 +2712,18 @@ class User extends CommonDBTM {
       echo "</table>";
         $user = $this->fields["name"];
        $invent_text = <<<INVENT
-User: $user\n
-CPU: $cpu\n
-MB: $mb\n
-MEM: $mem\n
-HDD: $hdd\n
-OS: $os\n
+User: $user
+CPU: $cpu
+MB: $mb
+MEM: $mem
+HDD: $hdd
+OS: $os
 INVENT;
 
        // create with SVG
        //QRcode::svg($invent_text);
        ?>
-       <img src="image_qr.php?inv=<?php echo $invent_text; ?>" />
+       <img src="image_qr.php?user=<?php echo $user; ?>&cpu=<?php echo $cpu; ?>&mb=<?php echo $mb; ?>&mem=<?php echo $mem; ?>&hdd=<?php echo $hdd; ?>&os=<?php echo $os; ?>" />
 <?php
 
 
