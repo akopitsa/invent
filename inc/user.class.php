@@ -2712,12 +2712,12 @@ class User extends CommonDBTM {
       echo "</table>";
         $user = $this->fields["name"];
        $invent_text = <<<INVENT
-User: $user
-CPU: $cpu
-MB: $mb
-MEM: $mem
-HDD: $hdd
-OS: $os
+User: $user\n
+CPU: $cpu\n
+MB: $mb\n
+MEM: $mem\n
+HDD: $hdd\n
+OS: $os\n
 INVENT;
 
        // create with SVG
