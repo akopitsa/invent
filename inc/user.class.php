@@ -2722,7 +2722,9 @@ INVENT;
 
 
        QRcode::svg($invent_text);
-       
+       ?>
+       <img src="image_qr.php?inv=12">linc</a>
+<?php
 
 
    //  die;
