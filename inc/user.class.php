@@ -2595,7 +2595,7 @@ class User extends CommonDBTM {
             $result = $DB->query($query);
 
             $type_name = $item->getTypeName();
-            $cpu ="";
+
             if ($DB->numrows($result) > 0) {
                while ($data = $DB->fetch_array($result)) {
               //   var_dump($data);
@@ -2631,9 +2631,9 @@ class User extends CommonDBTM {
                               $show=$show.$data["other"];
                           }
                           $show=$show."</td>";
-                   var_dump($data["plugin_genericobject_videocardmodels_id"]);
-
                   echo $show;
+                  $inv = "CPU:".Dropdown::getDropdownName("glpi_plugin_genericobject_processormodels",$data["plugin_genericobject_processormodels_id"]).
+                      Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]);
                  echo "<td class='center'>".Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardtypes",
                           $data["plugin_genericobject_motherboardtypes_id"]).
                           $data["contact_num"].
@@ -2692,7 +2692,7 @@ MEM:
 HDD:
 OS:
 INVENT;
-
+var_dump($inv);
 
        QRcode::svg($invent_text);
 
