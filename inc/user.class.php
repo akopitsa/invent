@@ -2631,6 +2631,9 @@ class User extends CommonDBTM {
                        $mb = Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardmodels",
                            $data["plugin_genericobject_motherboardmodels_id"]);
                    }
+                   if(Dropdown::getDropdownName("glpi_plugin_genericobject_processormodels",$data["plugin_genericobject_processormodels_id"]) != '&nbsp;') {
+                       $cpu = Dropdown::getDropdownName("glpi_plugin_genericobject_processormodels",$data["plugin_genericobject_processormodels_id"]);
+                   }
 
 
 
@@ -2696,7 +2699,7 @@ class User extends CommonDBTM {
 
        $invent_text = <<<INVENT
 User:
-CPU:
+CPU: $cpu
 MB: $mb
 MEM:
 HDD: $hdd
