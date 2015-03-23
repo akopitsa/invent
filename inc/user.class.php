@@ -2595,7 +2595,7 @@ class User extends CommonDBTM {
             $result = $DB->query($query);
 
             $type_name = $item->getTypeName();
-
+            $cpu ="";
             if ($DB->numrows($result) > 0) {
                while ($data = $DB->fetch_array($result)) {
               //   var_dump($data);
