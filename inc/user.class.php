@@ -2623,7 +2623,9 @@ class User extends CommonDBTM {
                           Dropdown::getDropdownName("glpi_plugin_genericobject_powers",$data["plugin_genericobject_powermodels_id"]).
                           Dropdown::getDropdownName("glpi_plugin_genericobject_processormodels",$data["plugin_genericobject_processormodels_id"]).
                           Dropdown::getDropdownName("glpi_plugin_genericobject_operationsystemmodels",$data["plugin_genericobject_operationsystemmodels_id"]);
-
+                            if (Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]) != '&nbsp;') {
+                                $hdd =  Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]);
+                            }
 
 
                           if ($type_name=="Память")
@@ -2676,7 +2678,7 @@ class User extends CommonDBTM {
 
                   echo "</td></tr>";
                 //  echo "</td><td class='center'>$linktype</td></tr>";
-                   QRcode::svg(Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]));
+
                }
 
 
@@ -2694,7 +2696,7 @@ MEM:
 HDD:
 OS:
 INVENT;
-
+var_dump($hdd);
 
        QRcode::svg($invent_text);
 
