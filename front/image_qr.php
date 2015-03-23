@@ -18,5 +18,6 @@ MEM: $mem
 HDD: $hdd
 OS: $os
 INVENT;
-    QRcode::png($invent_text);
+    //QRcode::png($invent_text);
+    QRcode::png($invent_text, "test.png", "H", 14, 14);
 }
