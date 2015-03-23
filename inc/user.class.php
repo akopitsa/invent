@@ -2666,6 +2666,9 @@ class User extends CommonDBTM {
                      Dropdown::getDropdownName("glpi_states",$data['states_id']).
                      Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardcategories",$data['plugin_genericobject_motherboardcategories_id']).
                      Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']);
+                   if(Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']) != '&nbsp;') {
+                       $mem .= Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']);
+                   }
                           if ($type_name!="Память")
                           {
                               $show1=$show1.$data["other"];
@@ -2702,9 +2705,9 @@ class User extends CommonDBTM {
          }
       }
       echo "</table>";
-
+        $user = $this->fields["name"];
        $invent_text = <<<INVENT
-User: $this->fields['name']
+User: $user
 CPU: $cpu
 MB: $mb
 MEM: $mem
