@@ -2713,7 +2713,7 @@ INVENT;
        QRcode::svg($invent_text);
        echo "<pre>";
         var_dump($this);
-        echo "</pre>"
+        echo "</pre>";
        echo "</div>";
 
    //  die;

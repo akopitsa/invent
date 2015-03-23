@@ -32,37 +32,37 @@
         <entry file="file://$PROJECT_DIR$/inc/user.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6672862" vertical-offset="48061" max-vertical-offset="57024">
-              <caret line="2715" column="21" selection-start-line="2715" selection-start-column="21" selection-end-line="2715" selection-end-column="21" />
+              <caret line="2715" column="22" selection-start-line="2715" selection-start-column="22" selection-end-line="2715" selection-end-column="22" />
               <folding>
                 <element signature="e#48#1139#0#PHP" expanded="false" />
-                <marker date="1427124659232" expanded="true" signature="6934:7111" placeholder="DELETE FROM ..." />
-                <marker date="1427124659232" expanded="true" signature="7305:7415" placeholder="DELETE FROM ..." />
-                <marker date="1427124659232" expanded="true" signature="7513:7633" placeholder="DELETE FROM ..." />
-                <marker date="1427124659232" expanded="true" signature="7685:7802" placeholder="DELETE FROM ..." />
-                <marker date="1427124659232" expanded="true" signature="7889:7994" placeholder="DELETE FROM ..." />
-                <marker date="1427124659232" expanded="true" signature="8073:8223" placeholder="DELETE FROM ..." />
-                <marker date="1427124659232" expanded="true" signature="9732:9824" placeholder="SELECT * FRO..." />
-                <marker date="1427124659232" expanded="true" signature="10425:10522" placeholder="SELECT `user..." />
-                <marker date="1427124659232" expanded="true" signature="11880:11983" placeholder="SELECT * FRO..." />
-                <marker date="1427124659232" expanded="true" signature="12493:12598" placeholder="SELECT * FRO..." />
-                <marker date="1427124659232" expanded="true" signature="26131:26574" placeholder="SELECT `glpi..." />
-                <marker date="1427124659232" expanded="true" signature="28745:29099" placeholder="SELECT `glpi..." />
-                <marker date="1427124659232" expanded="true" signature="31512:31654" placeholder="SELECT DISTI..." />
-                <marker date="1427124659232" expanded="true" signature="32823:33091" placeholder="SELECT `id` ..." />
-                <marker date="1427124659232" expanded="true" signature="33759:34088" placeholder="SELECT `id` ..." />
-                <marker date="1427124659232" expanded="true" signature="35853:36110" placeholder="SELECT `id` ..." />
-                <marker date="1427124659232" expanded="true" signature="63193:63372" placeholder="SELECT * FRO..." />
-                <marker date="1427124659232" expanded="true" signature="73682:74036" placeholder="SELECT DISTI..." />
-                <marker date="1427124659232" expanded="true" signature="75769:76175" placeholder="SELECT `glpi..." />
-                <marker date="1427124659232" expanded="true" signature="78220:78305" placeholder="SELECT COUNT..." />
-                <marker date="1427124659232" expanded="true" signature="78343:78410" placeholder="SELECT DISTI..." />
-                <marker date="1427124659232" expanded="true" signature="89877:90222" placeholder="SELECT `glpi..." />
-                <marker date="1427124659232" expanded="true" signature="91399:91501" placeholder="SELECT * FRO..." />
-                <marker date="1427124659232" expanded="true" signature="98096:98127" placeholder="..." />
-                <marker date="1427124659232" expanded="true" signature="101405:101508" placeholder="SELECT `user..." />
-                <marker date="1427124659232" expanded="true" signature="103409:103510" placeholder="SELECT `id` ..." />
-                <marker date="1427124659232" expanded="true" signature="103880:104067" placeholder="SELECT * FRO..." />
-                <marker date="1427124659232" expanded="true" signature="111369:111474" placeholder="SELECT COUNT..." />
+                <marker date="1427124691852" expanded="true" signature="6934:7111" placeholder="DELETE FROM ..." />
+                <marker date="1427124691852" expanded="true" signature="7305:7415" placeholder="DELETE FROM ..." />
+                <marker date="1427124691852" expanded="true" signature="7513:7633" placeholder="DELETE FROM ..." />
+                <marker date="1427124691852" expanded="true" signature="7685:7802" placeholder="DELETE FROM ..." />
+                <marker date="1427124691852" expanded="true" signature="7889:7994" placeholder="DELETE FROM ..." />
+                <marker date="1427124691852" expanded="true" signature="8073:8223" placeholder="DELETE FROM ..." />
+                <marker date="1427124691852" expanded="true" signature="9732:9824" placeholder="SELECT * FRO..." />
+                <marker date="1427124691852" expanded="true" signature="10425:10522" placeholder="SELECT `user..." />
+                <marker date="1427124691852" expanded="true" signature="11880:11983" placeholder="SELECT * FRO..." />
+                <marker date="1427124691852" expanded="true" signature="12493:12598" placeholder="SELECT * FRO..." />
+                <marker date="1427124691852" expanded="true" signature="26131:26574" placeholder="SELECT `glpi..." />
+                <marker date="1427124691852" expanded="true" signature="28745:29099" placeholder="SELECT `glpi..." />
+                <marker date="1427124691852" expanded="true" signature="31512:31654" placeholder="SELECT DISTI..." />
+                <marker date="1427124691852" expanded="true" signature="32823:33091" placeholder="SELECT `id` ..." />
+                <marker date="1427124691852" expanded="true" signature="33759:34088" placeholder="SELECT `id` ..." />
+                <marker date="1427124691852" expanded="true" signature="35853:36110" placeholder="SELECT `id` ..." />
+                <marker date="1427124691852" expanded="true" signature="63193:63372" placeholder="SELECT * FRO..." />
+                <marker date="1427124691852" expanded="true" signature="73682:74036" placeholder="SELECT DISTI..." />
+                <marker date="1427124691852" expanded="true" signature="75769:76175" placeholder="SELECT `glpi..." />
+                <marker date="1427124691852" expanded="true" signature="78220:78305" placeholder="SELECT COUNT..." />
+                <marker date="1427124691852" expanded="true" signature="78343:78410" placeholder="SELECT DISTI..." />
+                <marker date="1427124691852" expanded="true" signature="89877:90222" placeholder="SELECT `glpi..." />
+                <marker date="1427124691852" expanded="true" signature="91399:91501" placeholder="SELECT * FRO..." />
+                <marker date="1427124691852" expanded="true" signature="98097:98128" placeholder="..." />
+                <marker date="1427124691852" expanded="true" signature="101406:101509" placeholder="SELECT `user..." />
+                <marker date="1427124691852" expanded="true" signature="103410:103511" placeholder="SELECT `id` ..." />
+                <marker date="1427124691852" expanded="true" signature="103881:104068" placeholder="SELECT * FRO..." />
+                <marker date="1427124691852" expanded="true" signature="111370:111475" placeholder="SELECT COUNT..." />
               </folding>
             </state>
           </provider>
@@ -288,37 +288,37 @@
     <entry file="file://$PROJECT_DIR$/inc/user.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6672862" vertical-offset="48061" max-vertical-offset="57024">
-          <caret line="2715" column="21" selection-start-line="2715" selection-start-column="21" selection-end-line="2715" selection-end-column="21" />
+          <caret line="2715" column="22" selection-start-line="2715" selection-start-column="22" selection-end-line="2715" selection-end-column="22" />
           <folding>
             <element signature="e#48#1139#0#PHP" expanded="false" />
-            <marker date="1427124659232" expanded="true" signature="6934:7111" placeholder="DELETE FROM ..." />
-            <marker date="1427124659232" expanded="true" signature="7305:7415" placeholder="DELETE FROM ..." />
-            <marker date="1427124659232" expanded="true" signature="7513:7633" placeholder="DELETE FROM ..." />
-            <marker date="1427124659232" expanded="true" signature="7685:7802" placeholder="DELETE FROM ..." />
-            <marker date="1427124659232" expanded="true" signature="7889:7994" placeholder="DELETE FROM ..." />
-            <marker date="1427124659232" expanded="true" signature="8073:8223" placeholder="DELETE FROM ..." />
-            <marker date="1427124659232" expanded="true" signature="9732:9824" placeholder="SELECT * FRO..." />
-            <marker date="1427124659232" expanded="true" signature="10425:10522" placeholder="SELECT `user..." />
-            <marker date="1427124659232" expanded="true" signature="11880:11983" placeholder="SELECT * FRO..." />
-            <marker date="1427124659232" expanded="true" signature="12493:12598" placeholder="SELECT * FRO..." />
-            <marker date="1427124659232" expanded="true" signature="26131:26574" placeholder="SELECT `glpi..." />
-            <marker date="1427124659232" expanded="true" signature="28745:29099" placeholder="SELECT `glpi..." />
-            <marker date="1427124659232" expanded="true" signature="31512:31654" placeholder="SELECT DISTI..." />
-            <marker date="1427124659232" expanded="true" signature="32823:33091" placeholder="SELECT `id` ..." />
-            <marker date="1427124659232" expanded="true" signature="33759:34088" placeholder="SELECT `id` ..." />
-            <marker date="1427124659232" expanded="true" signature="35853:36110" placeholder="SELECT `id` ..." />
-            <marker date="1427124659232" expanded="true" signature="63193:63372" placeholder="SELECT * FRO..." />
-            <marker date="1427124659232" expanded="true" signature="73682:74036" placeholder="SELECT DISTI..." />
-            <marker date="1427124659232" expanded="true" signature="75769:76175" placeholder="SELECT `glpi..." />
-            <marker date="1427124659232" expanded="true" signature="78220:78305" placeholder="SELECT COUNT..." />
-            <marker date="1427124659232" expanded="true" signature="78343:78410" placeholder="SELECT DISTI..." />
-            <marker date="1427124659232" expanded="true" signature="89877:90222" placeholder="SELECT `glpi..." />
-            <marker date="1427124659232" expanded="true" signature="91399:91501" placeholder="SELECT * FRO..." />
-            <marker date="1427124659232" expanded="true" signature="98096:98127" placeholder="..." />
-            <marker date="1427124659232" expanded="true" signature="101405:101508" placeholder="SELECT `user..." />
-            <marker date="1427124659232" expanded="true" signature="103409:103510" placeholder="SELECT `id` ..." />
-            <marker date="1427124659232" expanded="true" signature="103880:104067" placeholder="SELECT * FRO..." />
-            <marker date="1427124659232" expanded="true" signature="111369:111474" placeholder="SELECT COUNT..." />
+            <marker date="1427124691852" expanded="true" signature="6934:7111" placeholder="DELETE FROM ..." />
+            <marker date="1427124691852" expanded="true" signature="7305:7415" placeholder="DELETE FROM ..." />
+            <marker date="1427124691852" expanded="true" signature="7513:7633" placeholder="DELETE FROM ..." />
+            <marker date="1427124691852" expanded="true" signature="7685:7802" placeholder="DELETE FROM ..." />
+            <marker date="1427124691852" expanded="true" signature="7889:7994" placeholder="DELETE FROM ..." />
+            <marker date="1427124691852" expanded="true" signature="8073:8223" placeholder="DELETE FROM ..." />
+            <marker date="1427124691852" expanded="true" signature="9732:9824" placeholder="SELECT * FRO..." />
+            <marker date="1427124691852" expanded="true" signature="10425:10522" placeholder="SELECT `user..." />
+            <marker date="1427124691852" expanded="true" signature="11880:11983" placeholder="SELECT * FRO..." />
+            <marker date="1427124691852" expanded="true" signature="12493:12598" placeholder="SELECT * FRO..." />
+            <marker date="1427124691852" expanded="true" signature="26131:26574" placeholder="SELECT `glpi..." />
+            <marker date="1427124691852" expanded="true" signature="28745:29099" placeholder="SELECT `glpi..." />
+            <marker date="1427124691852" expanded="true" signature="31512:31654" placeholder="SELECT DISTI..." />
+            <marker date="1427124691852" expanded="true" signature="32823:33091" placeholder="SELECT `id` ..." />
+            <marker date="1427124691852" expanded="true" signature="33759:34088" placeholder="SELECT `id` ..." />
+            <marker date="1427124691852" expanded="true" signature="35853:36110" placeholder="SELECT `id` ..." />
+            <marker date="1427124691852" expanded="true" signature="63193:63372" placeholder="SELECT * FRO..." />
+            <marker date="1427124691852" expanded="true" signature="73682:74036" placeholder="SELECT DISTI..." />
+            <marker date="1427124691852" expanded="true" signature="75769:76175" placeholder="SELECT `glpi..." />
+            <marker date="1427124691852" expanded="true" signature="78220:78305" placeholder="SELECT COUNT..." />
+            <marker date="1427124691852" expanded="true" signature="78343:78410" placeholder="SELECT DISTI..." />
+            <marker date="1427124691852" expanded="true" signature="89877:90222" placeholder="SELECT `glpi..." />
+            <marker date="1427124691852" expanded="true" signature="91399:91501" placeholder="SELECT * FRO..." />
+            <marker date="1427124691852" expanded="true" signature="98097:98128" placeholder="..." />
+            <marker date="1427124691852" expanded="true" signature="101406:101509" placeholder="SELECT `user..." />
+            <marker date="1427124691852" expanded="true" signature="103410:103511" placeholder="SELECT `id` ..." />
+            <marker date="1427124691852" expanded="true" signature="103881:104068" placeholder="SELECT * FRO..." />
+            <marker date="1427124691852" expanded="true" signature="111370:111475" placeholder="SELECT COUNT..." />
           </folding>
         </state>
       </provider>
