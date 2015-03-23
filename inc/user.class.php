@@ -2657,7 +2657,7 @@ class User extends CommonDBTM {
                         Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"]).
                  "</td>";
                    if(Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"]) != '&nbsp;') {
-                       $mem = Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"]);
+                       $mem = Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"])." ";
                    }
 
 
