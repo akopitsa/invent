@@ -2657,7 +2657,7 @@ class User extends CommonDBTM {
                         Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"]).
                  "</td>";
                    if(Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"]) != '&nbsp;') {
-                       $mem = Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"])." ";
+                       $mem .= Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"])." ";
                    }
 
 
@@ -2669,7 +2669,7 @@ class User extends CommonDBTM {
                    if(Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']) != '&nbsp;') {
                        $mem .= Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']);
                    }
-                   var_dump(Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']));
+                   //var_dump(Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']));
                           if ($type_name!="Память")
                           {
                               $show1=$show1.$data["other"];
