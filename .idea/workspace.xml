@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bace339c-4de9-40ed-938a-9266f6588497" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/image_qr.php" afterPath="$PROJECT_DIR$/front/image_qr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/user.class.php" afterPath="$PROJECT_DIR$/inc/user.class.php" />
     </list>
     <ignored path="invent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,8 +70,8 @@
       <file leaf-file-name="image_qr.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/image_qr.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39041096" vertical-offset="0" max-vertical-offset="876">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.4520548" vertical-offset="0" max-vertical-offset="876">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -336,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/image_qr.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39041096" vertical-offset="0" max-vertical-offset="876">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.4520548" vertical-offset="0" max-vertical-offset="876">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
