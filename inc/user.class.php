@@ -2656,6 +2656,9 @@ class User extends CommonDBTM {
                         $data["size"].
                         Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"]).
                  "</td>";
+                   if(Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"]) != '&nbsp;') {
+                       $mem = Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"]);
+                   }
 
 
                  $show1 = "</td><td class='center'>".
@@ -2701,21 +2704,17 @@ class User extends CommonDBTM {
       echo "</table>";
 
        $invent_text = <<<INVENT
-User:
+User: $this->fields['name']
 CPU: $cpu
 MB: $mb
-MEM:
+MEM: $mem
 HDD: $hdd
 OS: $os
 INVENT;
 
 
        QRcode::svg($invent_text);
-       echo "<pre>";
-        var_dump($this);
-        echo "</pre>";
-       echo "<h2>".$this->fields['name']."</h2>";
-       echo "</div>";
+
 
    //  die;
    /*
