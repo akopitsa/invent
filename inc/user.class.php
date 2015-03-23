@@ -1,5 +1,5 @@
 <?php
-
+include "../phpqrcode-master/qrlib.php";
 
 /*
  * @version $Id: user.class.php 18307 2012-04-18 12:37:14Z moyo $
@@ -2559,7 +2559,7 @@ class User extends CommonDBTM {
             $groups[$data["groups_id"]] = $data["name"];
          }
       }
-
+       QRcode::png("http://www.ruseller.com", "test.png", "L", 4, 4);
       echo "<div class='spaced'>Факью<table class='tab_cadre_fixe'>";
 
       echo "<tr><th>".$LANG['common'][17]."</th>";

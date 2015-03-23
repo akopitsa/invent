@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bace339c-4de9-40ed-938a-9266f6588497" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/_cron/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/_log/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/_sessions/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/user.class.php" afterPath="$PROJECT_DIR$/inc/user.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="invent.iws" />
@@ -30,60 +28,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/user.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.592592" vertical-offset="45308" max-vertical-offset="56322">
-              <caret line="2565" column="46" selection-start-line="2565" selection-start-column="46" selection-end-line="2565" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.6362039" vertical-offset="45268" max-vertical-offset="56322">
+              <caret line="2561" column="69" selection-start-line="2561" selection-start-column="69" selection-end-line="2561" selection-end-column="69" />
               <folding>
-                <marker date="1427112685324" expanded="true" signature="6894:7071" placeholder="DELETE FROM ..." />
-                <marker date="1427112685324" expanded="true" signature="7265:7375" placeholder="DELETE FROM ..." />
-                <marker date="1427112685324" expanded="true" signature="7473:7593" placeholder="DELETE FROM ..." />
-                <marker date="1427112685324" expanded="true" signature="7645:7762" placeholder="DELETE FROM ..." />
-                <marker date="1427112685324" expanded="true" signature="7849:7954" placeholder="DELETE FROM ..." />
-                <marker date="1427112685324" expanded="true" signature="8033:8183" placeholder="DELETE FROM ..." />
-                <marker date="1427112685324" expanded="true" signature="9692:9784" placeholder="SELECT * FRO..." />
-                <marker date="1427112685324" expanded="true" signature="10385:10482" placeholder="SELECT `user..." />
-                <marker date="1427112685324" expanded="true" signature="11840:11943" placeholder="SELECT * FRO..." />
-                <marker date="1427112685324" expanded="true" signature="12453:12558" placeholder="SELECT * FRO..." />
-                <marker date="1427112685324" expanded="true" signature="26091:26534" placeholder="SELECT `glpi..." />
-                <marker date="1427112685324" expanded="true" signature="28705:29059" placeholder="SELECT `glpi..." />
-                <marker date="1427112685324" expanded="true" signature="31472:31614" placeholder="SELECT DISTI..." />
-                <marker date="1427112685324" expanded="true" signature="32783:33051" placeholder="SELECT `id` ..." />
-                <marker date="1427112685324" expanded="true" signature="33719:34048" placeholder="SELECT `id` ..." />
-                <marker date="1427112685324" expanded="true" signature="35813:36070" placeholder="SELECT `id` ..." />
-                <marker date="1427112685324" expanded="true" signature="63153:63332" placeholder="SELECT * FRO..." />
-                <marker date="1427112685324" expanded="true" signature="73642:73996" placeholder="SELECT DISTI..." />
-                <marker date="1427112685324" expanded="true" signature="75729:76135" placeholder="SELECT `glpi..." />
-                <marker date="1427112685324" expanded="true" signature="78180:78265" placeholder="SELECT COUNT..." />
-                <marker date="1427112685324" expanded="true" signature="78303:78370" placeholder="SELECT DISTI..." />
-                <marker date="1427112685324" expanded="true" signature="89837:90182" placeholder="SELECT `glpi..." />
-                <marker date="1427112685324" expanded="true" signature="91345:91447" placeholder="SELECT * FRO..." />
-                <marker date="1427112685324" expanded="true" signature="99735:99838" placeholder="SELECT `user..." />
-                <marker date="1427112685324" expanded="true" signature="101739:101840" placeholder="SELECT `id` ..." />
-                <marker date="1427112685324" expanded="true" signature="102210:102397" placeholder="SELECT * FRO..." />
-                <marker date="1427112685324" expanded="true" signature="109699:109804" placeholder="SELECT COUNT..." />
+                <element signature="e#48#1139#0#PHP" expanded="false" />
+                <marker date="1427113207740" expanded="true" signature="6934:7111" placeholder="DELETE FROM ..." />
+                <marker date="1427113207740" expanded="true" signature="7305:7415" placeholder="DELETE FROM ..." />
+                <marker date="1427113207740" expanded="true" signature="7513:7633" placeholder="DELETE FROM ..." />
+                <marker date="1427113207740" expanded="true" signature="7685:7802" placeholder="DELETE FROM ..." />
+                <marker date="1427113207740" expanded="true" signature="7889:7994" placeholder="DELETE FROM ..." />
+                <marker date="1427113207740" expanded="true" signature="8073:8223" placeholder="DELETE FROM ..." />
+                <marker date="1427113207740" expanded="true" signature="9732:9824" placeholder="SELECT * FRO..." />
+                <marker date="1427113207740" expanded="true" signature="10425:10522" placeholder="SELECT `user..." />
+                <marker date="1427113207740" expanded="true" signature="11880:11983" placeholder="SELECT * FRO..." />
+                <marker date="1427113207740" expanded="true" signature="12493:12598" placeholder="SELECT * FRO..." />
+                <marker date="1427113207740" expanded="true" signature="26131:26574" placeholder="SELECT `glpi..." />
+                <marker date="1427113207740" expanded="true" signature="28745:29099" placeholder="SELECT `glpi..." />
+                <marker date="1427113207740" expanded="true" signature="31512:31654" placeholder="SELECT DISTI..." />
+                <marker date="1427113207740" expanded="true" signature="32823:33091" placeholder="SELECT `id` ..." />
+                <marker date="1427113207740" expanded="true" signature="33759:34088" placeholder="SELECT `id` ..." />
+                <marker date="1427113207740" expanded="true" signature="35853:36110" placeholder="SELECT `id` ..." />
+                <marker date="1427113207740" expanded="true" signature="63193:63372" placeholder="SELECT * FRO..." />
+                <marker date="1427113207740" expanded="true" signature="73682:74036" placeholder="SELECT DISTI..." />
+                <marker date="1427113207740" expanded="true" signature="75769:76175" placeholder="SELECT `glpi..." />
+                <marker date="1427113207740" expanded="true" signature="78220:78305" placeholder="SELECT COUNT..." />
+                <marker date="1427113207740" expanded="true" signature="78343:78410" placeholder="SELECT DISTI..." />
+                <marker date="1427113207740" expanded="true" signature="89877:90222" placeholder="SELECT `glpi..." />
+                <marker date="1427113207740" expanded="true" signature="91454:91556" placeholder="SELECT * FRO..." />
+                <marker date="1427113207740" expanded="true" signature="99844:99947" placeholder="SELECT `user..." />
+                <marker date="1427113207740" expanded="true" signature="101848:101949" placeholder="SELECT `id` ..." />
+                <marker date="1427113207740" expanded="true" signature="102319:102506" placeholder="SELECT * FRO..." />
+                <marker date="1427113207740" expanded="true" signature="109808:109913" placeholder="SELECT COUNT..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/_sessions/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.44" vertical-offset="0" max-vertical-offset="144">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/files/_cron/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06304728" vertical-offset="0" max-vertical-offset="571">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -96,10 +75,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/inc/user.class.php" />
         <option value="$PROJECT_DIR$/files/_log/.gitignore" />
         <option value="$PROJECT_DIR$/files/_sessions/.gitignore" />
         <option value="$PROJECT_DIR$/files/_cron/.gitignore" />
+        <option value="$PROJECT_DIR$/inc/user.class.php" />
       </list>
     </option>
   </component>
@@ -151,74 +130,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="invent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_sessions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="invent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_cron" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,55 +240,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/user.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.592592" vertical-offset="45308" max-vertical-offset="56322">
-          <caret line="2565" column="46" selection-start-line="2565" selection-start-column="46" selection-end-line="2565" selection-end-column="46" />
-          <folding>
-            <marker date="1427112685324" expanded="true" signature="6894:7071" placeholder="DELETE FROM ..." />
-            <marker date="1427112685324" expanded="true" signature="7265:7375" placeholder="DELETE FROM ..." />
-            <marker date="1427112685324" expanded="true" signature="7473:7593" placeholder="DELETE FROM ..." />
-            <marker date="1427112685324" expanded="true" signature="7645:7762" placeholder="DELETE FROM ..." />
-            <marker date="1427112685324" expanded="true" signature="7849:7954" placeholder="DELETE FROM ..." />
-            <marker date="1427112685324" expanded="true" signature="8033:8183" placeholder="DELETE FROM ..." />
-            <marker date="1427112685324" expanded="true" signature="9692:9784" placeholder="SELECT * FRO..." />
-            <marker date="1427112685324" expanded="true" signature="10385:10482" placeholder="SELECT `user..." />
-            <marker date="1427112685324" expanded="true" signature="11840:11943" placeholder="SELECT * FRO..." />
-            <marker date="1427112685324" expanded="true" signature="12453:12558" placeholder="SELECT * FRO..." />
-            <marker date="1427112685324" expanded="true" signature="26091:26534" placeholder="SELECT `glpi..." />
-            <marker date="1427112685324" expanded="true" signature="28705:29059" placeholder="SELECT `glpi..." />
-            <marker date="1427112685324" expanded="true" signature="31472:31614" placeholder="SELECT DISTI..." />
-            <marker date="1427112685324" expanded="true" signature="32783:33051" placeholder="SELECT `id` ..." />
-            <marker date="1427112685324" expanded="true" signature="33719:34048" placeholder="SELECT `id` ..." />
-            <marker date="1427112685324" expanded="true" signature="35813:36070" placeholder="SELECT `id` ..." />
-            <marker date="1427112685324" expanded="true" signature="63153:63332" placeholder="SELECT * FRO..." />
-            <marker date="1427112685324" expanded="true" signature="73642:73996" placeholder="SELECT DISTI..." />
-            <marker date="1427112685324" expanded="true" signature="75729:76135" placeholder="SELECT `glpi..." />
-            <marker date="1427112685324" expanded="true" signature="78180:78265" placeholder="SELECT COUNT..." />
-            <marker date="1427112685324" expanded="true" signature="78303:78370" placeholder="SELECT DISTI..." />
-            <marker date="1427112685324" expanded="true" signature="89837:90182" placeholder="SELECT `glpi..." />
-            <marker date="1427112685324" expanded="true" signature="91345:91447" placeholder="SELECT * FRO..." />
-            <marker date="1427112685324" expanded="true" signature="99735:99838" placeholder="SELECT `user..." />
-            <marker date="1427112685324" expanded="true" signature="101739:101840" placeholder="SELECT `id` ..." />
-            <marker date="1427112685324" expanded="true" signature="102210:102397" placeholder="SELECT * FRO..." />
-            <marker date="1427112685324" expanded="true" signature="109699:109804" placeholder="SELECT COUNT..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/_sessions/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.44" vertical-offset="0" max-vertical-offset="144">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/_cron/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06304728" vertical-offset="0" max-vertical-offset="571">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/_sessions/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06304728" vertical-offset="0" max-vertical-offset="571">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/user.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6362039" vertical-offset="45268" max-vertical-offset="56322">
+          <caret line="2561" column="69" selection-start-line="2561" selection-start-column="69" selection-end-line="2561" selection-end-column="69" />
+          <folding>
+            <element signature="e#48#1139#0#PHP" expanded="false" />
+            <marker date="1427113207740" expanded="true" signature="6934:7111" placeholder="DELETE FROM ..." />
+            <marker date="1427113207740" expanded="true" signature="7305:7415" placeholder="DELETE FROM ..." />
+            <marker date="1427113207740" expanded="true" signature="7513:7633" placeholder="DELETE FROM ..." />
+            <marker date="1427113207740" expanded="true" signature="7685:7802" placeholder="DELETE FROM ..." />
+            <marker date="1427113207740" expanded="true" signature="7889:7994" placeholder="DELETE FROM ..." />
+            <marker date="1427113207740" expanded="true" signature="8073:8223" placeholder="DELETE FROM ..." />
+            <marker date="1427113207740" expanded="true" signature="9732:9824" placeholder="SELECT * FRO..." />
+            <marker date="1427113207740" expanded="true" signature="10425:10522" placeholder="SELECT `user..." />
+            <marker date="1427113207740" expanded="true" signature="11880:11983" placeholder="SELECT * FRO..." />
+            <marker date="1427113207740" expanded="true" signature="12493:12598" placeholder="SELECT * FRO..." />
+            <marker date="1427113207740" expanded="true" signature="26131:26574" placeholder="SELECT `glpi..." />
+            <marker date="1427113207740" expanded="true" signature="28745:29099" placeholder="SELECT `glpi..." />
+            <marker date="1427113207740" expanded="true" signature="31512:31654" placeholder="SELECT DISTI..." />
+            <marker date="1427113207740" expanded="true" signature="32823:33091" placeholder="SELECT `id` ..." />
+            <marker date="1427113207740" expanded="true" signature="33759:34088" placeholder="SELECT `id` ..." />
+            <marker date="1427113207740" expanded="true" signature="35853:36110" placeholder="SELECT `id` ..." />
+            <marker date="1427113207740" expanded="true" signature="63193:63372" placeholder="SELECT * FRO..." />
+            <marker date="1427113207740" expanded="true" signature="73682:74036" placeholder="SELECT DISTI..." />
+            <marker date="1427113207740" expanded="true" signature="75769:76175" placeholder="SELECT `glpi..." />
+            <marker date="1427113207740" expanded="true" signature="78220:78305" placeholder="SELECT COUNT..." />
+            <marker date="1427113207740" expanded="true" signature="78343:78410" placeholder="SELECT DISTI..." />
+            <marker date="1427113207740" expanded="true" signature="89877:90222" placeholder="SELECT `glpi..." />
+            <marker date="1427113207740" expanded="true" signature="91454:91556" placeholder="SELECT * FRO..." />
+            <marker date="1427113207740" expanded="true" signature="99844:99947" placeholder="SELECT `user..." />
+            <marker date="1427113207740" expanded="true" signature="101848:101949" placeholder="SELECT `id` ..." />
+            <marker date="1427113207740" expanded="true" signature="102319:102506" placeholder="SELECT * FRO..." />
+            <marker date="1427113207740" expanded="true" signature="109808:109913" placeholder="SELECT COUNT..." />
+          </folding>
         </state>
       </provider>
     </entry>
