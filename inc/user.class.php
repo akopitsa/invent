@@ -2632,6 +2632,7 @@ class User extends CommonDBTM {
                           }
                           $show=$show."</td>";
                     $cpu = Dropdown::getDropdownName("glpi_plugin_genericobject_videocardmodels",$data["plugin_genericobject_videocardmodels_id"]);
+                   echo $cpu;
                   echo $show;
                  echo "<td class='center'>".Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardtypes",
                           $data["plugin_genericobject_motherboardtypes_id"]).
