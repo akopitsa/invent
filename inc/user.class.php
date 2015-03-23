@@ -2575,7 +2575,7 @@ class User extends CommonDBTM {
       echo "<th>".$LANG['common'][19]."</th>";
       echo "<th>"."Группа"."</th>";
      // echo "<th>&test;</th></tr>";
-
+        $mem = "";
       foreach ($type_user as $itemtype) {
          if (!($item = getItemForItemtype($itemtype))) {
             continue;
@@ -2597,7 +2597,7 @@ class User extends CommonDBTM {
             $type_name = $item->getTypeName();
 
             if ($DB->numrows($result) > 0) {
-                $mem = " ";
+
                while ($data = $DB->fetch_array($result)) {
               //   var_dump($data);
                   $cansee = $item->can($data["id"],"r");
@@ -2658,7 +2658,7 @@ class User extends CommonDBTM {
                         Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"]).
                  "</td>";
                    if(Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"]) != '&nbsp;') {
-                       $mem .= Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"])." ";
+                       $mem .= " ".Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"])." ";
                    }
 
 
