@@ -2686,7 +2686,7 @@ User:
 CPU:
 MB:
 MEM:
-HDD:
+HDD: $data[plugin_genericobject_hddtypes_id]
 OS:
 INVENT;
 
