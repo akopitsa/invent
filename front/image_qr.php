@@ -19,5 +19,5 @@ HDD: $hdd
 OS: $os
 INVENT;
     //QRcode::png($invent_text);
-    QRcode::png($invent_text, false, "H", 14, 14);
+    QRcode::png($invent_text, false, "H", 4, 4);
 }
