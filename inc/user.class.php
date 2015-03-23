@@ -2692,7 +2692,7 @@ MEM:
 HDD:
 OS:
 INVENT;
-var_dump($cpu);
+var_dump($data["plugin_genericobject_videocardmodels_id"]);
 
        QRcode::svg($invent_text);
 
