@@ -2632,8 +2632,7 @@ class User extends CommonDBTM {
                           }
                           $show=$show."</td>";
                   echo $show;
-                  $inv = "CPU:".Dropdown::getDropdownName("glpi_plugin_genericobject_processormodels",$data["plugin_genericobject_processormodels_id"]).
-                      Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]);
+
                  echo "<td class='center'>".Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardtypes",
                           $data["plugin_genericobject_motherboardtypes_id"]).
                           $data["contact_num"].
@@ -2678,6 +2677,7 @@ class User extends CommonDBTM {
                   echo "</td></tr>";
                 //  echo "</td><td class='center'>$linktype</td></tr>";
                }
+                $cpu = Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']);
 
             }
 
@@ -2692,7 +2692,7 @@ MEM:
 HDD:
 OS:
 INVENT;
-var_dump($inv);
+var_dump($cpu);
 
        QRcode::svg($invent_text);
 
