@@ -2676,7 +2676,7 @@ class User extends CommonDBTM {
 
                   echo "</td></tr>";
                 //  echo "</td><td class='center'>$linktype</td></tr>";
-                   echo Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]);
+                   $hdd = Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]);
                }
 
 
@@ -2685,6 +2685,7 @@ class User extends CommonDBTM {
          }
       }
       echo "</table>";
+       echo $hdd;
        $invent_text = <<<INVENT
 User:
 CPU:
@@ -2693,7 +2694,7 @@ MEM:
 HDD:
 OS:
 INVENT;
-var_dump($cpu);
+
 
        QRcode::svg($invent_text);
 
