@@ -2559,8 +2559,10 @@ class User extends CommonDBTM {
             $groups[$data["groups_id"]] = $data["name"];
          }
       }
+
+      echo "<div class='spaced'>";
        QRcode::png("My First QR Code");
-      echo "<div class='spaced'>Факью<table class='tab_cadre_fixe'>";
+       echo "<table class='tab_cadre_fixe'>";
 
       echo "<tr><th>".$LANG['common'][17]."</th>";
       echo "<th>".$LANG['common'][16]."</th>";
