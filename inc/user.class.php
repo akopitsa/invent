@@ -2561,8 +2561,8 @@ class User extends CommonDBTM {
       }
 
       echo "<div class='spaced'>";
-       header('Content-Type: image/png');
-       QRcode::png("My First QR Code");
+       QRcode::png("test");
+
        echo "<table class='tab_cadre_fixe'>";
 
       echo "<tr><th>".$LANG['common'][17]."</th>";
