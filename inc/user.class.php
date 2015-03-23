@@ -2632,7 +2632,7 @@ class User extends CommonDBTM {
                           }
                           $show=$show."</td>";
                   echo $show;
-                  echo Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]);
+
                  echo "<td class='center'>".Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardtypes",
                           $data["plugin_genericobject_motherboardtypes_id"]).
                           $data["contact_num"].
@@ -2676,6 +2676,7 @@ class User extends CommonDBTM {
 
                   echo "</td></tr>";
                 //  echo "</td><td class='center'>$linktype</td></tr>";
+                   echo Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]);
                }
 
 
