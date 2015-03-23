@@ -2701,7 +2701,7 @@ class User extends CommonDBTM {
       echo "</table>";
 
        $invent_text = <<<INVENT
-User: $LANG[users][3]
+User:
 CPU: $cpu
 MB: $mb
 MEM:
@@ -2711,7 +2711,7 @@ INVENT;
 
 
        QRcode::svg($invent_text);
-        var_dump($this);
+        var_dump($this['name']);
 
        echo "</div>";
 
