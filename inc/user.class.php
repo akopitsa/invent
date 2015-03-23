@@ -1699,7 +1699,7 @@ class User extends CommonDBTM {
          echo "<form method='post' name='user_manager' action='".$target."'>";
          echo "<table class='tab_cadre_fixe'>";
          echo "<tr><th colspan='4'>" . $LANG['setup'][18] . "&nbsp;: " .$this->fields["name"];
-         echo "<input type='hidden' name='name' value='" . $this->fields["name"] . "'>";
+         //echo "<input type='hidden' name='name' value='" . $this->fields["name"] . "'>";
          echo "<input type='hidden' name='id' value='" . $this->fields["id"] . "'>";
          echo "</th></tr>";
 
