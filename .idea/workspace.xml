@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bace339c-4de9-40ed-938a-9266f6588497" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/user.class.php" afterPath="$PROJECT_DIR$/inc/user.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="invent.iws" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="user.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/user.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.366171" vertical-offset="48007" max-vertical-offset="57006">
-              <caret line="2703" column="10" selection-start-line="2703" selection-start-column="10" selection-end-line="2703" selection-end-column="10" />
+            <state vertical-scroll-proportion="-13.351301" vertical-offset="36721" max-vertical-offset="57006">
+              <caret line="1667" column="18" selection-start-line="1667" selection-start-column="18" selection-end-line="1667" selection-end-column="18" />
               <folding>
                 <element signature="e#48#1139#0#PHP" expanded="false" />
                 <marker date="1427123837828" expanded="true" signature="6934:7111" placeholder="DELETE FROM ..." />
@@ -287,8 +286,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/user.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.366171" vertical-offset="48007" max-vertical-offset="57006">
-          <caret line="2703" column="10" selection-start-line="2703" selection-start-column="10" selection-end-line="2703" selection-end-column="10" />
+        <state vertical-scroll-proportion="-13.351301" vertical-offset="36721" max-vertical-offset="57006">
+          <caret line="1667" column="18" selection-start-line="1667" selection-start-column="18" selection-end-line="1667" selection-end-column="18" />
           <folding>
             <element signature="e#48#1139#0#PHP" expanded="false" />
             <marker date="1427123837828" expanded="true" signature="6934:7111" placeholder="DELETE FROM ..." />
