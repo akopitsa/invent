@@ -2669,6 +2669,9 @@ class User extends CommonDBTM {
                    if(Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"]) != '&nbsp;') {
                        $mem .= " ".Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"])." ";
                    }
+                   if(Dropdown::getDropdownName("glpi_plugin_genericobject_hddtypes",$data["plugin_genericobject_hddtypes_id"]) != '&nbsp;') {
+                       $hdd .= Dropdown::getDropdownName("glpi_plugin_genericobject_hddtypes",$data["plugin_genericobject_hddtypes_id"]);
+                   }
 
 
 
@@ -2686,9 +2689,7 @@ class User extends CommonDBTM {
                           {
                               $show1=$show1.$data["other"];
                           }
-                   if($data["other"] != '&nbsp;') {
-                      $hdd .= $data["other"];
-                   }
+
                  //  } else {
               //       echo '&nbsp;';
              //    }
