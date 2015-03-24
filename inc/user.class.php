@@ -2625,20 +2625,23 @@ class User extends CommonDBTM {
                           Dropdown::getDropdownName("glpi_plugin_genericobject_powers",$data["plugin_genericobject_powermodels_id"]).
                           Dropdown::getDropdownName("glpi_plugin_genericobject_processormodels",$data["plugin_genericobject_processormodels_id"]).
                           Dropdown::getDropdownName("glpi_plugin_genericobject_operationsystemmodels",$data["plugin_genericobject_operationsystemmodels_id"]);
-                   if(Dropdown::getDropdownName("glpi_plugin_genericobject_hddtypes",$data["plugin_genericobject_hddtypes_id"]) != '&nbsp;') {
-                       $hdd .= " ".Dropdown::getDropdownName("glpi_plugin_genericobject_hddtypes",$data["plugin_genericobject_hddtypes_id"])." ";
-                   }
+
+
+
                    if (Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]) != '&nbsp;') {
                                 $hdd .=  Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]);
                             }
+
                    if(Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardmodels",
                        $data["plugin_genericobject_motherboardmodels_id"])  != '&nbsp;') {
                        $mb = Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardmodels",
                            $data["plugin_genericobject_motherboardmodels_id"]);
                    }
+
                    if(Dropdown::getDropdownName("glpi_plugin_genericobject_processormodels",$data["plugin_genericobject_processormodels_id"]) != '&nbsp;') {
                        $cpu = Dropdown::getDropdownName("glpi_plugin_genericobject_processormodels",$data["plugin_genericobject_processormodels_id"]);
                    }
+
                    if(Dropdown::getDropdownName("glpi_plugin_genericobject_operationsystemmodels",$data["plugin_genericobject_operationsystemmodels_id"]) != '&nbsp;') {
                        $os = Dropdown::getDropdownName("glpi_plugin_genericobject_operationsystemmodels",$data["plugin_genericobject_operationsystemmodels_id"]);
                    }
@@ -2665,12 +2668,17 @@ class User extends CommonDBTM {
                        $mem .= " ".Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"])." ";
                    }
 
+                   if(Dropdown::getDropdownName("glpi_plugin_genericobject_hddtypes",$data["plugin_genericobject_hddtypes_id"]) != '&nbsp;') {
+                       $hdd .= " ".Dropdown::getDropdownName("glpi_plugin_genericobject_hddtypes",$data["plugin_genericobject_hddtypes_id"])." ";
+                   }
+
 
                  $show1 = "</td><td class='center'>".
                //  if (isset($data["states_id"])) {
                      Dropdown::getDropdownName("glpi_states",$data['states_id']).
                      Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardcategories",$data['plugin_genericobject_motherboardcategories_id']).
                      Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']);
+
                    if(Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']) != '&nbsp;') {
                        $mem .= Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']);
                    }
