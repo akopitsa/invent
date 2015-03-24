@@ -17,6 +17,7 @@ MB: $mb
 MEM: $mem
 HDD: $hdd
 OS: $os
+http://invent.uadevelopers.com/front/user.form.php?id=$_GET[id]
 INVENT;
     //QRcode::png($invent_text);
     QRcode::png($invent_text, false, "H", 3, 3);
