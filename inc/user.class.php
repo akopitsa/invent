@@ -2576,6 +2576,7 @@ class User extends CommonDBTM {
       echo "<th>"."Группа"."</th>";
      // echo "<th>&test;</th></tr>";
         $mem = "";
+       $hdd = "";
       foreach ($type_user as $itemtype) {
          if (!($item = getItemForItemtype($itemtype))) {
             continue;
@@ -2625,7 +2626,7 @@ class User extends CommonDBTM {
                           Dropdown::getDropdownName("glpi_plugin_genericobject_processormodels",$data["plugin_genericobject_processormodels_id"]).
                           Dropdown::getDropdownName("glpi_plugin_genericobject_operationsystemmodels",$data["plugin_genericobject_operationsystemmodels_id"]);
                    if(Dropdown::getDropdownName("glpi_plugin_genericobject_hddtypes",$data["plugin_genericobject_hddtypes_id"]) != '&nbsp;') {
-                       $hdd = Dropdown::getDropdownName("glpi_plugin_genericobject_hddtypes",$data["plugin_genericobject_hddtypes_id"])." ";
+                       $hdd .= Dropdown::getDropdownName("glpi_plugin_genericobject_hddtypes",$data["plugin_genericobject_hddtypes_id"])." ";
                    }
                    if (Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]) != '&nbsp;') {
                                 $hdd .=  Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]);
