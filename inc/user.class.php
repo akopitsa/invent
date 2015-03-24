@@ -2630,9 +2630,7 @@ class User extends CommonDBTM {
                        $hdd .= " ".Dropdown::getDropdownName("glpi_plugin_genericobject_hddtypes",$data["plugin_genericobject_hddtypes_id"])." ";
                    }
 
-                   if (Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]) != '&nbsp;') {
-                                $hdd .=  Dropdown::getDropdownName("glpi_plugin_genericobject_hddmodels",$data["plugin_genericobject_hddmodels_id"]);
-                            }
+
 
                    if(Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardmodels",
                        $data["plugin_genericobject_motherboardmodels_id"])  != '&nbsp;') {
