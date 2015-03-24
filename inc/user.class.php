@@ -2675,7 +2675,9 @@ class User extends CommonDBTM {
 
                  $show1 = "</td><td class='center'>".
                //  if (isset($data["states_id"])) {
-                     var_dump(Dropdown::getDropdownName("glpi_states",$data['states_id']));
+                     if (Dropdown::getDropdownName("glpi_states",$data['states_id']) != '&nbsp;') {
+                         $hdd .= Dropdown::getDropdownName("glpi_states",$data['states_id']);
+                     }
                      Dropdown::getDropdownName("glpi_states",$data['states_id']).
                      Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardcategories",$data['plugin_genericobject_motherboardcategories_id']).
                      Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']);
