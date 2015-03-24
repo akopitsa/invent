@@ -2669,14 +2669,13 @@ class User extends CommonDBTM {
                    if(Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"]) != '&nbsp;') {
                        $mem .= " ".Dropdown::getDropdownName("glpi_plugin_genericobject_memorietypes",$data["plugin_genericobject_memorietypes_id"])." ";
                    }
-                   if(Dropdown::getDropdownName("glpi_plugin_genericobject_hddtypes",$data["plugin_genericobject_hddtypes_id"]) != '&nbsp;') {
-                       $hdd .= Dropdown::getDropdownName("glpi_plugin_genericobject_hddtypes",$data["plugin_genericobject_hddtypes_id"]);
-                   }
+
 
 
 
                  $show1 = "</td><td class='center'>".
                //  if (isset($data["states_id"])) {
+                     var_dump(Dropdown::getDropdownName("glpi_states",$data['states_id']));
                      Dropdown::getDropdownName("glpi_states",$data['states_id']).
                      Dropdown::getDropdownName("glpi_plugin_genericobject_motherboardcategories",$data['plugin_genericobject_motherboardcategories_id']).
                      Dropdown::getDropdownName("glpi_plugin_genericobject_memoriemodels",$data['plugin_genericobject_memoriemodels_id']);
