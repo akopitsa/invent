@@ -8,7 +8,7 @@ if(!empty($_GET['user'])) {
     if(isset($_GET['mem']) && trim($_GET['mem']) != "" ? $mem = $_GET['mem'] : $mem = "-")
     if(isset($_GET['hdd']) && trim($_GET['hdd']) != "" ? $hdd = $_GET['hdd'] : $hdd = "-")
     if(isset($_GET['os']) && trim($_GET['os']) != "" ? $os = $_GET['os'] : $os = "-")
-    if(isset($_GET['id']) && trim($_GET['id']) != "" ? $id = $_GET['id'] : $id = "-")
+
 
 
     $invent_text = <<<INVENT
@@ -18,7 +18,7 @@ MB: $mb
 MEM: $mem
 HDD: $hdd
 OS: $os
-http://invent.uadevelopers.com/front/user.form.php?id=$id
+
 INVENT;
     //QRcode::png($invent_text);
     QRcode::png($invent_text, false, "H", 3, 3);
