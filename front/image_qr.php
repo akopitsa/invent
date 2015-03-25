@@ -7,7 +7,7 @@ if(!empty($_GET['user'])) {
     if(isset($_GET['mb']) && trim($_GET['mb']) != "" ? $mb = $_GET['mb'] : $mb = "-")
     if(isset($_GET['mem']) && trim($_GET['mem']) != "" ? $mem = $_GET['mem'] : $mem = "-")
     if(isset($_GET['hdd']) && trim($_GET['hdd']) != "" ? $hdd = $_GET['hdd'] : $hdd = "-")
-    if(isset($_GET['os']) && trim($_GET['os']) != "" ? $os = $_GET['os'] : $os = "-")
+    if(isset($_GET['os']) && trim($_GET['os']) != "" ? $os = $_GET['os'] : $os = "LINUX")
 
 
 
