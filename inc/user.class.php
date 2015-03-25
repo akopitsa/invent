@@ -2577,6 +2577,7 @@ class User extends CommonDBTM {
      // echo "<th>&test;</th></tr>";
         $mem = "";
        $hdd = "";
+       $os ="";
       foreach ($type_user as $itemtype) {
          if (!($item = getItemForItemtype($itemtype))) {
             continue;
@@ -2643,7 +2644,7 @@ class User extends CommonDBTM {
                    }
 
                    if(Dropdown::getDropdownName("glpi_plugin_genericobject_operationsystemmodels",$data["plugin_genericobject_operationsystemmodels_id"]) != '&nbsp;') {
-                       $os = Dropdown::getDropdownName("glpi_plugin_genericobject_operationsystemmodels",$data["plugin_genericobject_operationsystemmodels_id"]);
+                       $os .= Dropdown::getDropdownName("glpi_plugin_genericobject_operationsystemmodels",$data["plugin_genericobject_operationsystemmodels_id"]." ");
                    }
 
 
