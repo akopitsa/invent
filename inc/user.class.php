@@ -2734,9 +2734,11 @@ INVENT;
 
        // create with SVG
        //QRcode::svg($invent_text);
-       echo "<p style='text-align: center'>".$this->fields["name"]."</p>";
+       $url = "http://invent.uadevelopers.com/front/user.form.php?id=".$this->fields['id'];
+       echo "<p style='text-align: center'>".$this->fields["name"]."</p>";   
+     //  echo "<p style='text-align: center'>".$this->fields["id"]."</p>";
        ?>
-       <img src="image_qr.php?user=<?php echo $user; ?>&cpu=<?php echo $cpu; ?>&mb=<?php echo $mb; ?>&mem=<?php echo $mem; ?>&hdd=<?php echo $hdd; ?>&os=<?php echo $os; ?>" />
+       <img src="image_qr.php?user=<?php echo $user; ?>&cpu=<?php echo $cpu; ?>&mb=<?php echo $mb; ?>&mem=<?php echo $mem; ?>&hdd=<?php echo $hdd; ?>&os=<?php echo $os; ?>&url=<?php echo $url; ?>" />
 <?php
 
 
