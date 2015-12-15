@@ -17,17 +17,15 @@ if(!empty($_GET['user'])) {
 	$userarray = explode(".", $user);
 	$user = ucfirst($userarray[0])." ".ucfirst($userarray[1]);
     }
-
+//User: $user
+//OS: $os
 
     $invent_text = <<<INVENT
-User: $user
 CPU: $cpu
 MB: $mb
 MEM: $mem
 HDD: $hdd
-OS: $os
 LINK: $url
-
 INVENT;
     //QRcode::png($invent_text);
     QRcode::png($invent_text, false, "H", 3, 3);
